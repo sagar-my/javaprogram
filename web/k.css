@@ -1,0 +1,78 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        color: rgb(59, 58, 58);
+    }
+    
+    col .container {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    
+    .apply_box {
+        max-width: 700px;
+        padding: 40px;
+        background-color: rgb(212, 194, 194);
+        margin: 0 auto;
+        margin-top: 50px;
+        box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+        border-radius: 11px;
+    }
+    
+    .small {
+        font-size: 23px;
+    }
+    
+    .form_container {
+        margin-top: 5px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+    
+    .form_control {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    input,
+    select,
+    textarea {
+        padding: 5px 10px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    
+    input:focus {
+        outline-color: darkgoldenrod;
+    }
+    
+    .button_container {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 6px;
+    }
+    
+    button {
+        color: white;
+        background-color: crimson;
+        padding: 6px;
+    }/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 8, 2023, 3:35:28 PM
+    Author     : sagar
+*/
+
